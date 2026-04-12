@@ -1,0 +1,10 @@
+services:
+  card:
+    image: "siddhant9960/card-service:0.1"
+    container_name: card-ms
+    ports:
+      - "9000:9000"
+    deploy:
+      resources:
+        limits:
+          memory: 700m
