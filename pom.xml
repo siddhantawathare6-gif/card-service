@@ -84,7 +84,7 @@
                 <version>3.5.1</version>
                 <configuration>
                     <to>
-                        <image>siddhant9960/${project.artifactId}:0.1</image>
+                        <image>siddhant9960/${project.artifactId}:1.0</image>
                     </to>
                 </configuration>
             </plugin>
