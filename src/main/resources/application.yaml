@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: card-service
+    name: card
   profiles:
     active: "prod"
   config:
