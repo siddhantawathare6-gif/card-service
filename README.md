@@ -7,3 +7,5 @@ https://github.com/siddhantawathare6-gif/card-service/pull/2
 added profile concept https://github.com/siddhantawathare6-gif/card-service/pull/3
 
 introduced config-server https://github.com/siddhantawathare6-gif/card-service/pull/4
+
+added dependency and added mq credential in app.yml https://github.com/siddhantawathare6-gif/card-service/pull/5
