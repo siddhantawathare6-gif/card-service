@@ -9,3 +9,5 @@ added profile concept https://github.com/siddhantawathare6-gif/card-service/pull
 introduced config-server https://github.com/siddhantawathare6-gif/card-service/pull/4
 
 added dependency and added mq credential in app.yml https://github.com/siddhantawathare6-gif/card-service/pull/5
+
+added mysql https://github.com/siddhantawathare6-gif/card-service/pull/6
