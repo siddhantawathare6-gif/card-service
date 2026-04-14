@@ -3,7 +3,7 @@ package com.bank.card.controller;
 
 import com.bank.card.constant.CardConstant;
 import com.bank.card.dto.CardDto;
-import com.bank.card.dto.CardsContactInfoDto;
+import com.bank.card.dto.CardContactInfoDto;
 import com.bank.card.dto.ErrorResponseDto;
 import com.bank.card.dto.ResponseDto;
 import com.bank.card.service.ICardService;
@@ -36,7 +36,7 @@ public class CardController {
     private Environment environment;
 
     @Autowired
-    private CardsContactInfoDto cardsContactInfoDto;
+    private CardContactInfoDto cardsContactInfoDto;
 
     public CardController(ICardService cardService) {
         this.cardService = cardService;
@@ -150,7 +150,7 @@ public class CardController {
     }
     )
     @GetMapping("/contact")
-    public ResponseEntity<CardsContactInfoDto> getContactInfo(){
+    public ResponseEntity<CardContactInfoDto> getContactInfo(){
         return ResponseEntity.status(HttpStatus.OK).body(cardsContactInfoDto);
     }
 

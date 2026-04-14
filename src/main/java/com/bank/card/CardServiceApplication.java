@@ -1,6 +1,6 @@
 package com.bank.card;
 
-import com.bank.card.dto.CardsContactInfoDto;
+import com.bank.card.dto.CardContactInfoDto;
 import io.swagger.v3.oas.annotations.ExternalDocumentation;
 import io.swagger.v3.oas.annotations.OpenAPIDefinition;
 import io.swagger.v3.oas.annotations.info.Contact;
@@ -13,7 +13,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
 @SpringBootApplication
 @EnableJpaAuditing(auditorAwareRef = "auditAwareImpl")
-@EnableConfigurationProperties(value = CardsContactInfoDto.class)
+@EnableConfigurationProperties(value = CardContactInfoDto.class)
 @OpenAPIDefinition(info = @Info(title = "Card microservice REST API Documentation", description = "EasyBank Cards microservice REST API Documentation", version = "v1", contact = @Contact(name = "Siddhant A", email = "siddhantawathare6@gmail.com", url = "https://github.com/siddhantawathare6-gif"), license = @License(name = "Apache 2.0", url = "https://github.com/siddhantawathare6-gif")), externalDocs = @ExternalDocumentation(description = "EasyBank Card microservice REST API Documentation", url = "https://github.com/siddhantawathare6-gif"))
 public class CardServiceApplication {
 
