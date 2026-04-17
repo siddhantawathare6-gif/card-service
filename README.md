@@ -13,3 +13,5 @@ added dependency and added mq credential in app.yml https://github.com/siddhanta
 added mysql https://github.com/siddhantawathare6-gif/card-service/pull/6
 
 added eureka client https://github.com/siddhantawathare6-gif/card-service/pull/7
+
+https://github.com/siddhantawathare6-gif/card-service/pull/8
