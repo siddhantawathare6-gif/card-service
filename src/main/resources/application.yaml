@@ -9,8 +9,8 @@ spring:
   config:
     import: "optional:configserver:http://localhost:8071/"
   datasource:
-#    url: jdbc:mysql://localhost:3308/carddb (just to test eureka, i changed port number, using docker it should run on different port i.e 3308)
-    url: jdbc:mysql://localhost:3306/carddb
+#    url: jdbc:mysql://localhost:3308/carddb  #(just to test eureka, i changed port number, using docker it should run on different port i.e 3308)
+    url: jdbc:mysql://localhost:3306/carddb  #(checkout this property when u r not using docker)
     username: root
     password: system@123
   jpa:
@@ -46,3 +46,8 @@ info:
     description: "EasyBank card application"
     version: 1.0.0
 
+logging:
+  level:
+    com:
+      card:
+        gateway: debug
